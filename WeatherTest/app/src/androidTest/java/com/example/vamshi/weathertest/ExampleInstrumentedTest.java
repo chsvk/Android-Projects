@@ -19,8 +19,8 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() throws Exception {
         // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
+        Context app_Context = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.vamshi.weathertest", appContext.getPackageName());
+        assertEquals("com.example.vamshi.weathertest", app_Context.getPackageName());
     }
 }
